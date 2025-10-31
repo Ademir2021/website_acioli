@@ -1,0 +1,132 @@
+#center {
+  text-align: center;
+}
+
+#img-qrcode {
+  padding: 12px;
+}
+
+thead {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(91, 91, 93);
+  color: white;
+  font-size: 14px;
+  border: 1px solid white;
+}
+
+tr {
+  font-size: 12px;
+}
+
+td {
+  font-size: 12px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.input-group input[type="date"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-group input[type="date"]:focus {
+  border-color: #2563eb;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.img-checkout {
+  display: flex;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 36px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#vals {
+  background-color: #f5f5f5; /* cor de fundo suave */
+  border: 1px solid #ccc;   /* borda leve */
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px 0;
+  max-width: 300px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#vals div {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+  font-size: 16px;
+  /* color: #333; */
+  color:#1d4ed8;
+}
+
+#vals div::before {
+  content: "•";
+  /* color: #888; */
+  color: #2563eb;
+}
+
+#vals .final {
+  font-weight: bold;
+  color: #007b00; /* verde */
+}
+
+#entrega label{
+  margin-bottom: 2px;
+}
+#entrega{
+  color:#2563eb;
+}
+#entrega b{
+  color: #333;
+}
+
+

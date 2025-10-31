@@ -1,0 +1,70 @@
+.container-itens {
+   display: inline-block;
+   vertical-align: top;
+   justify-content: center;
+   max-width: 100%;
+   margin: 1px;
+   padding: 1px;
+   width: 49%;
+   min-width: 400px;
+}
+/* .main-itens {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 94%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 2px rgba(0, 0, 0, 0.2);
+    background-color:#e6e1e1;
+    border-radius: 3px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    transition: 2s ease-in-out;
+    color: black;
+} */
+
+.main-itens {
+    display: flex;
+    flex-wrap: wrap; /* opcional */
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente, se quiser */
+    width: 94%;
+    margin: 0 auto;
+    background-color: #e6e1e1;
+    border-radius: 3px;
+}
+
+.main-itens:hover{
+    box-shadow: 3px 3px 3px 3px rgb(58, 58, 87);
+    background-color:#dae2e6
+}
+
+.itens-img {
+    margin-top: auto;
+    max-height: 80%;
+    max-width: 80%;
+    height: auto;
+    width: auto;
+    border-radius: 12px;
+    border:1px solid none;
+}
+.itens-img:hover{
+    max-height: 100%;
+    max-width: 100%;
+    padding: 12px;
+     border-radius: 16px;
+}
+
+.work-title{
+    margin-top: 12px;
+    font-size: large;
+}
+
+.work-description{
+    margin: 12px;
+    text-align: center;
+    font-size: 14px;
+    color:black;
+}

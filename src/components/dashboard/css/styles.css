@@ -1,0 +1,27 @@
+#itens-store-car {
+    display: flex;
+    margin: 18px;
+    padding: 18px;
+    border-radius: 12px;
+    flex-Direction: column;
+    align-Items: center;
+    background-color: whitesmoke;
+    color: blue;
+}
+
+#itens-store {
+    font-size: 12px;
+}
+
+#store-input-quant {
+    text-align: center;
+    margin: 6px;
+    width: 12%;
+    color: blue;
+}
+
+#store-input-total {
+    margin: 6px;
+    width: 30%;
+    color: blue;
+}
