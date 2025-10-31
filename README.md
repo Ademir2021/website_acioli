@@ -3,7 +3,7 @@
 
 Recursos:
 - `Nav Bar para navegação`
-- `Banners estino carrousel para publicidades`
+- `Banners estilo carrousel para publicidades`
 - `Home para apresentação da Construtora`
 - `Lista de cards com obras Entregues`
 - `Footer do site completo`
