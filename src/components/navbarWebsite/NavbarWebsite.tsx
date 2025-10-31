@@ -79,9 +79,9 @@ export function NavBarWebsite() {
 
                                 <li className="nav-item">
                                     {checksUserLogged() === privilegeShopping ?
-                                        <a className="nav-link" href='##'>Obras Realizadas</a> :
+                                        <a className="nav-link" href='#_works_'>Obras Realizadas</a> :
                                         <a className="nav-link"
-                                            href='##'>Obras Realizadas</a>}
+                                            href='#_works_'>Obras Realizadas</a>}
                                 </li>
 
                                 <li className="nav-item">
