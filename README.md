@@ -3,6 +3,7 @@
 
 Recursos:
 - `Nav Bar para navegação`
+- `Website Respulsivo`
 - `Banners estilo carrousel para publicidades`
 - `Home para apresentação da Construtora`
 - `Lista de cards com obras Entregues`
