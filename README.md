@@ -8,7 +8,7 @@ Recursos:
 - `Home para apresentação da Construtora`
 - `Lista de cards com obras Entregues`
 - `Footer do site completo`
-- `form com NesLetter`
+- `Form para NewsLetter`
 - `Form para Contatos`
 - `Cadastro de Usuários para Login`
 - `Cadastro de Pessoas`
