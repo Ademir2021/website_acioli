@@ -1,15 +1,16 @@
-## Aplicação para vendas online.
-# Sistema para automação de atividades de vendas online.
+## Aplicação para website de Constutoras.
+# Website para Contrutoras.
 
 Recursos:
-- `Compras, Pagamentos, Emissão de Notas e Relatórios`
-- `Consulta de CEPS e Cidades`
-- `Fale Conosco e Boletins de Notícias`
-- `Controle de Faturamento e fechamento dos Pedidos`
-- `Carrinho de compras para controle dos items no Pedido`
-- `Checkout para digitação e alteração dos Items`
-- `Checkout para finalização dos Pagamentos`
-
+- `Nav Bar para navegação`
+- `Banners estino carrousel para publicidades`
+- `Home para apresentação da Construtora`
+- `Lista de cards com obras Entregues`
+- `Footer do site completo`
+- `form com NesLetter`
+- `Form para Contatos`
+- `Cadastro de Usuários para Login`
+- `Cadastro de Pessoas`
 Segurança:
 - `Autenticação segura dos usuários`
 - `Segurança controlada com (JWT Web Token)`
