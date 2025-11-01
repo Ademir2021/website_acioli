@@ -1,15 +1,16 @@
 import { NewsLetter } from '../../useCases/contacts/newsLetter'
 import * as Icon from 'phosphor-react';
 import { Globais } from '../globais/Globais'
+import { Whats } from '../whats/Whats';
 
 import '../../components/home/css/footer.css'
 
-
 export function WebsiteFooter() {
 
-    const linkApp = 'https://drive.google.com/file/d/1cxKaXyg9uOfaqpu_eS8lRSgp4jhAY12G/view?usp=drive_link'
+    // const linkApp = 'https://drive.google.com/file/d/1cxKaXyg9uOfaqpu_eS8lRSgp4jhAY12G/view?usp=drive_link'
 
-    return (
+    return <>
+    <Whats/>
         <footer className='text-center'>
             {/* <p>
                 <dd>Baixe nosso App-Store !</dd>
@@ -87,5 +88,5 @@ export function WebsiteFooter() {
                     <img className="site-ssl" src='img/ssl_cert.png' alt="Certificado SSL"></img></a></p>
             </div>
         </footer>
-    )
+    </>
 }

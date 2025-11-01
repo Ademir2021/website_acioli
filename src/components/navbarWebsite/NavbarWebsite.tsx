@@ -9,7 +9,8 @@ export function NavBarWebsite() {
     // const privilAdmin = Globais.privilAdmin;
     const privilegeShopping = Globais.checksUserLogged;
 
-    return (
+    return <>
+        <div className="">
         <div style={{ fontSize: '14px' }}>
             <nav
                 className="navbar navbar-expand-lg "
@@ -175,5 +176,6 @@ export function NavBarWebsite() {
                 </div>
             </nav>
         </div>
-    )
+    </div>
+    </>
 }
